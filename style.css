@@ -1,0 +1,216 @@
+/*
+Theme Name: Mercenaries
+Theme URI: http://pixelmercenaries.com
+Author: Andrew Deibel
+Author URI: http://andrewdeibel.com
+Description: Derp
+Version: 1.0
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+/*	==============================
+	Main
+	==============================*/
+
+body {
+	/* Font */
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: rgba(255,255,255,.8);
+
+	/* Background */
+	background: url("images/stitch.png") center;
+	
+	/* Display */
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: rgba(255,255,255,.5);
+}
+
+a:hover {
+	color: #0080ff;
+}
+
+p {
+	margin: 0px;
+}
+
+img {
+	border-width: 0px;
+}
+
+.clear {
+	clear: both;
+}
+
+.page {
+	width: 100%;
+	height: 100%;
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.1), color-stop(100%,rgba(255,255,255,0)));
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.1) 0%,rgba(255,255,255,0) 100%);
+	background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.1) 0%,rgba(255,255,255,0) 100%);
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.1) 0%,rgba(255,255,255,0) 100%) 100%);
+	background: radial-gradient(ellipse at center,  rgba(255,255,255,0.1) 0%,rgba(255,255,255,0) 100%);
+}
+
+#underconstruction {
+	/* Background */
+	background: url("images/caution.png") repeat-x center;
+
+	/* Display */
+	height: 4px;
+}
+
+#wrap {
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+}
+
+/*	==============================
+	Navbar
+	==============================*/
+
+#head {
+	margin-top: 64px;
+}
+
+#logo {
+	float: left;
+	background:url("images/logo.png");
+	width: 238px;
+	height: 17px;
+	margin-bottom: 4px;
+}
+
+#logo a {
+	display: block;
+	width: 388px;
+	height: 18px;
+}
+
+.menu {
+	float: right;
+	margin: 0;
+	padding: 0;
+}	
+
+.menu li {
+	margin-left: 18px;
+	line-height: 17px;
+	display: inline-block;
+	list-style-type: none;
+}
+
+.current_page_item a {
+	color: rgba(255,255,255,.8);
+}
+
+/*	==============================
+	Body
+	==============================*/
+
+#body {
+	padding: 16px;
+	background: url('images/stitch.jpg') center;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-top: 1px solid rgba(255,255,255,.15);
+	box-shadow: 0px 1px 8px rgba(0,0,0,1)
+}
+
+/*	==============================
+	Slider
+	==============================*/
+
+.nivoSlider {
+	margin-bottom: 0 !important;
+	position: relative;
+}
+
+/*	==============================
+	Contact Form
+	==============================*/
+
+.wpcf7-form-control {
+	border-radius: 2px;
+	border: none;
+	padding: 4px;
+	margin: 0;
+}
+
+.wpcf7-form-control:hover {
+	box-shadow: 0px 0px 8px #0080ff;
+}
+
+.wpcf7-text {
+	margin-bottom: 8px;
+}
+
+.wpcf7-textarea {
+	max-width: 100%;
+	margin-bottom: 8px;
+}
+
+.wpcf7-submit {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+/*	==============================
+	Grid 12
+	==============================*/
+
+.cell-1 {
+	width: 8.333%;
+}
+
+.cell-2 {
+	width: 16.666%;
+}
+
+.cell-3 {
+	width: 25%;
+}
+
+.cell-4 {
+	width: 33.333%;
+}
+
+.cell-5 {
+	width: 41.667%;
+}
+
+.cell-6 {
+	width: 50%;
+}
+
+.cell-7 {
+	width: 58.333%;
+}
+
+.cell-8 {
+	width: 66.666%;
+}
+
+.cell-9 {
+	width: 75%;
+}
+
+.cell-10 {
+	width: 83.333%;
+}
+
+.cell-11 {
+	width: 91.666%;
+}
+
+.cell-12 {
+	width: 100%;
+}
